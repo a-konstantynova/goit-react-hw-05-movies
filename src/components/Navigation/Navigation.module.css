@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 15px;
+}
+
+.item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(86, 84, 240);
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.activeLink {
+  composes: link;
+  color: rgb(0, 23, 124);
+}

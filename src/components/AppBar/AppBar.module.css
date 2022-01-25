@@ -1,0 +1,9 @@
+.header {
+  border-bottom: 5px solid rgb(242, 248, 247);
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  background-color: rgb(81, 248, 226);
+  width: 92vw;
+}
